@@ -1,0 +1,82 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\WINDOWS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\WINDOWS\AppData\Roaming\npm;C:\Users\WINDOWS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\WINDOWS\AppData\Roaming\npm;D:\Fiddler;C:\Users\WINDOWS\AppData\Local\GitHubDesktop\bin;D:\Microsoft VS Code\bin;C:\Users\WINDOWS\AppData\Local\Microsoft\WindowsApps;;D:\DevEco Studio\bin;
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/babel-core: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\WINDOWS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141354:19)
+      at Object.onceWrapper (events.js:286:20)
+      at ClientRequest.emit (events.js:198:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:662:40)
+      at Object.onceWrapper (events.js:286:20)
+      at TLSSocket.emit (events.js:198:13)
+      at TLSSocket.Socket._onTimeout (net.js:442:8)
+      at ontimeout (timers.js:436:11)
+      at tryOnTimeout (timers.js:300:5)
+      at listOnTimeout (timers.js:263:5)
+
+npm manifest: 
+  {
+    "name": "fmp-wf",
+    "version": "1.0.0",
+    "description": ">起因\r >因为我目前主要的工作是做互动的。\r >互动的话一种是使用HTMLJ进行搭建。一种是canvas实现（2D，3d）我的仓库中已经存在了一个[canvasWF](https://github.com/soGooday/canvasWF \"canvasWF\")是专门用于cavnvas的2D开发页面互动。\r >又因为我们有很多活动是通过HTML搭建的。但是页面的搭建，非常的浪费时间。所以就打算开发一个可视化的页面搭建工具fmpWF",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack --mode=development --progress --color",
+      "build:p": "webpack --mode=production --progress --color",
+      "dev": "webpack-dev-server --inline --open"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/soGooday/fmpWF.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/soGooday/fmpWF/issues"
+    },
+    "homepage": "https://github.com/soGooday/fmpWF#readme",
+    "devDependencies": {
+      "clean-webpack-plugin": "^3.0.0",
+      "copy-webpack-plugin": "^5.0.4",
+      "css-loader": "^3.2.0",
+      "file-loader": "^4.2.0",
+      "html-webpack-plugin": "^3.2.0",
+      "html-withimg-loader": "^0.1.16",
+      "node-sass": "^4.12.0",
+      "sass-loader": "^8.0.0",
+      "style-loader": "^1.0.0",
+      "uglifyjs-webpack-plugin": "^2.2.0",
+      "url-loader": "^2.2.0",
+      "webpack": "^4.41.0",
+      "webpack-cli": "^3.3.9",
+      "webpack-dev-server": "^3.9.0",
+      "zepto-webpack": "^1.2.1"
+    },
+    "dependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-stage-0": "^6.24.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
