@@ -15,6 +15,7 @@ export class GetComponent{
         this.inputNode = this.node.find('.create-element-input');
         this.btnNode = this.node.find('.create-btn')
         this.bin();
+        
     }
     render(){
         return `
