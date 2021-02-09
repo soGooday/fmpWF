@@ -1,9 +1,11 @@
 import './index.scss'
 
-import componentBox from './components/componentBox/index.js'
+import {componentBox} from './components/componentBox/index.js'
 
 class fmpWF{
-    constructor(){}
+    constructor(){
+        this.init()
+    }
     init(){
         this.componentBoxFun()
     }

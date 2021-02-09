@@ -1,19 +1,19 @@
-// html,body{
-//     width: 100%;
-//     height: 1005;
-// }
+    html,body{
+        // width: 100%;
+        height: 100%;
+    }
 p {
     text-align: center;
   }
 .head-box {
   width: 100%;
-  height: 50px;
+  height: 10%;
   border: 1px rgb(254, 67, 101) solid;
   margin-bottom: 10px; 
 }
 .middle-box {
   width: 100%;
-  height: 700px;
+  height: 90%;
   border: 1px rgb(252 , 157 , 154) solid;
   display: flex;
   justify-content : space-between;
